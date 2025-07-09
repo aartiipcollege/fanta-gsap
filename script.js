@@ -5,7 +5,6 @@ var tl = gsap.timeline({
         start: "0% 95%",
         end: "70% 50%",
         scrub: true,
-        markers: true
     }
 })
 
@@ -26,7 +25,7 @@ tl.to("#img2", {
 }, 'first')
 
 tl.to("#img3", {
-    top: "156%",
+    top: "160%",
     left : "80%",
     scale: 0.7,
      duration: 1
@@ -51,7 +50,6 @@ var tl2 = gsap.timeline({
         start: "50% 95%",
         end: "50% 50%",
         scrub: true,
-        markers: true
     }
 })
 tl2.to("#fanta", {
